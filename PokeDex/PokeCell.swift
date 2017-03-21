@@ -20,6 +20,11 @@ class PokeCell: UICollectionViewCell {
         }
     }
     
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        layer.cornerRadius = 5.0
+    }
+    
     func configureCell(pokemon: Pokemon) {
         self.pokemon = pokemon
     }

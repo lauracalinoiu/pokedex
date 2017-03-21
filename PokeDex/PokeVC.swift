@@ -31,7 +31,7 @@ class PokeVC: UIViewController, UICollectionViewDataSource, UICollectionViewDele
         if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "PokeCell", for: indexPath) as? PokeCell {
             return cell
         }
-        return PokeCell()
+        return UICollectionViewCell()
     }
 
     func numberOfSections(in collectionView: UICollectionView) -> Int {
