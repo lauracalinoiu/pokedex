@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5B72A7A21E810E8500153E63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B72A7A11E810E8500153E63 /* AppDelegate.swift */; };
-		5B72A7A41E810E8500153E63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B72A7A31E810E8500153E63 /* ViewController.swift */; };
+		5B72A7A41E810E8500153E63 /* PokeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B72A7A31E810E8500153E63 /* PokeVC.swift */; };
 		5B72A7A71E810E8500153E63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B72A7A51E810E8500153E63 /* Main.storyboard */; };
 		5B72A7A91E810E8500153E63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B72A7A81E810E8500153E63 /* Assets.xcassets */; };
 		5B72A7AC1E810E8500153E63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B72A7AA1E810E8500153E63 /* LaunchScreen.storyboard */; };
@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		5B72A79E1E810E8500153E63 /* PokeDex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeDex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B72A7A11E810E8500153E63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B72A7A31E810E8500153E63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B72A7A31E810E8500153E63 /* PokeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeVC.swift; sourceTree = "<group>"; };
 		5B72A7A61E810E8500153E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B72A7A81E810E8500153E63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B72A7AB1E810E8500153E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 				5B72A7B81E81109C00153E63 /* model */,
 				5B72A7B51E810FDA00153E63 /* Resources */,
 				5B72A7A11E810E8500153E63 /* AppDelegate.swift */,
-				5B72A7A31E810E8500153E63 /* ViewController.swift */,
+				5B72A7A31E810E8500153E63 /* PokeVC.swift */,
 				5B72A7A51E810E8500153E63 /* Main.storyboard */,
 				5B72A7AA1E810E8500153E63 /* LaunchScreen.storyboard */,
 			);
@@ -171,7 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B72A7BA1E8118E500153E63 /* PokeCell.swift in Sources */,
-				5B72A7A41E810E8500153E63 /* ViewController.swift in Sources */,
+				5B72A7A41E810E8500153E63 /* PokeVC.swift in Sources */,
 				5B72A7A21E810E8500153E63 /* AppDelegate.swift in Sources */,
 				5B72A7B71E810FED00153E63 /* Pokemon.swift in Sources */,
 			);

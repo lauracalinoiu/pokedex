@@ -13,4 +13,14 @@ class PokeCell: UICollectionViewCell {
     @IBOutlet weak var icon: UIImageView!
     @IBOutlet weak var name: UILabel!
     
+    var pokemon: Pokemon! {
+        didSet {
+            icon.image = UIImage(named: "\(pokemon.pokedexId)")
+            name.text = pokemon.name
+        }
+    }
+    
+    func configureCell(pokemon: Pokemon) {
+        self.pokemon = pokemon
+    }
 }
